@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: aquamarine;
+}
+footer{
+    background-color: aquamarine;
+  
+    width: 100%;
+
+    display: flex;
+    gap: 70%;
+    
+    
+}
+.a1{
+    display: inline;
+    
+}
+.a1:hover{
+    color: gray;
+}
+img{
+   
+    margin-left: 5%;
+
+}
+p{
+border-bottom: solid black 1px;
+}
