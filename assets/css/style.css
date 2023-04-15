@@ -19,6 +19,30 @@ main{
     height: 200vh;
 }
 
-#images{
+
+#slider{
+    overflow: hidden;
+}
+#slider > #images{
     display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        transition: all 500ms ease;
+}
+#slider > #images > .sliderfoto {
+    flex: 0 0 auto;
+    width: 100%;
+}
+#slider > input:nth-child(1):checked ~ .sliderfoto{
+    transform: translateX(0%);
+}
+#slider > input:nth-child(2):checked ~ .sliderfoto{
+    transform: translateX(-100%);
+}
+#slider > input:nth-child(3):checked ~ .sliderfoto{
+    transform: translateX(-200%);
+}
+
+#slider > input:nth-child(4):checked ~ .sliderfoto{
+    transform: translateX(-300%);
 }
