@@ -16,26 +16,14 @@ text-align: center;
     gap:50px;
    margin-left: 44%;
 }
-#s1{
+button{
     padding: 10px;
     border:solid black 2px;
    
 }
-#s1:hover{
+button:hover{
     border:solid gray 2px;
      color: gray;
   
-
-}
-#s2{
-    padding: 10px;
-    border:solid black 2px;
-    
-}
-#s2:hover{
-    border:solid gray 2px;
-     color: gray;
-    
-    
 
 }
