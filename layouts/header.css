@@ -14,7 +14,7 @@ text-align: center;
 .container{
     display: flex;
     gap:50px;
-   margin-left: 44%;
+   margin-left: 40%;
 }
 button{
     padding: 10px;
